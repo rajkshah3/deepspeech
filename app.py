@@ -5,8 +5,8 @@ from flask import request
 from deepspeech_model import deepspeech_model
 from s3_download import get_file
 
-model_dir = '/home/ec2-user/deepspeech/models/deepspeech-0.5.1-models/'
-# model_dir = '/Users/raj.shah/projects/deepspeech/models2/deepspeech-0.5.1-models/'
+model_dir = '/home/ec2-user/bjss-speech-to-text/models/deepspeech-0.5.1-models/'
+# model_dir = '/Users/raj.shah/projects/bjss-speech-to-text/models2/deepspeech-0.5.1-models/'
 
 smodel = model_dir + 'output_graph.pbmm'
 strie = model_dir + 'trie'
